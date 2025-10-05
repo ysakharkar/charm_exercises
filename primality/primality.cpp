@@ -13,7 +13,6 @@ private:
 public:
   Main(CkArgMsg* m) {
     if (m->argc < 2) {
-      CkPrintf("Usage: ./charmrun +pN primality K\n");
       CkExit();
     }
     int K = atoi(m->argv[1]);
