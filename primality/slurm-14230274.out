@@ -1,0 +1,22 @@
+Charm++> Running on MPI library: Open MPI v4.1.5, package: Open MPI d2spackswinst@dev-2.zaratan.umd.edu Distribution, ident: 4.1.5, repo rev: v4.1.5, Feb 23, 2023 (MPI standard: 3.1)
+Charm++> Level of thread support used: MPI_THREAD_FUNNELED (desired: MPI_THREAD_FUNNELED)
+Charm++> Running in SMP mode: 8 processes, 1 worker threads (PEs) + 1 comm threads per process, 8 PEs total
+Charm++> The comm. thread both sends and receives messages
+Converse/Charm++ Commit ID: v7.1.0-devel-324-g520585628
+Isomalloc> Synchronized global address space.
+CharmLB> Load balancer assumes all CPUs are same.
+Charm++> Running on 1 hosts (2 sockets x 64 cores x 1 PUs = 128-way SMP)
+Charm++> cpu topology info is gathered in 0.009 seconds.
+CharmLB> Load balancing instrumentation for communication is off.
+Results:
+32 : Not Prime
+61 : Prime
+47 : Prime
+46 : Not Prime
+56 : Not Prime
+29 : Prime
+71 : Prime
+79 : Prime
+50 : Not Prime
+100 : Not Prime
+[Partition 0][Node 0] End of program
